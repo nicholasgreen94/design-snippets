@@ -6,7 +6,8 @@
   --textColor: #505f7a;
   --borderColor: #eeecea;
   --headingColor: #1f3559;
-  --purple: #53588a;
+  --lightPurple: #eff3f8;
+  --darkPurple: #53588a;
   --lightPink: #f67282;
   --darkPink: #f14b5f;
   --green: #31a692;
@@ -95,4 +96,31 @@ body {
 
 a {
   text-decoration: none;
+}
+
+#site-content {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 0 8vw 8vw;
+  position: relative;
+}
+
+#site-content:before {
+  content: '';
+  background-color: var(--lightPurple);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  height: 784px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (min-width: 700px) {
+  #site-content {
+    padding-bottom: 3vw;
+  }
 }
