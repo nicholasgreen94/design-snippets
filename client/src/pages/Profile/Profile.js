@@ -6,6 +6,9 @@ import Twitter from '../../assets/icons/Twitter@2x.png'
 import LinkedIn from '../../assets/icons/LinkedIn@2x.png'
 import Medium from '../../assets/icons/Medium@2x.png'
 import Behance from '../../assets/icons/Behance@2x.png'
+import Dani from '../../assets/images/user-image@2x.jpg'
+// import purpleOval from '../../assets/ovals/purple-oval@2x.png'
+// import pinkOval from '../../assets/ovals/pink-oval@2x.png'
 
 
 import './Profile.css'
@@ -19,7 +22,9 @@ class Profile extends Component {
             <div className='profile'>
             <Col xs={12} md={4}>
               <div className='profile-image'>
-                <div className='user-image'></div>
+                <div className='user-image'>
+                  <img src={Dani} alt='Dani' />
+                </div>
               </div>
               </Col>
               <Col xs={12} md={8}>
@@ -38,7 +43,7 @@ class Profile extends Component {
                     </ul>
                   </div>
                   <a href='https://daniandor.com/' target='_blank' rel='noreferrer noopener' title='New Page' className='website-name'>www.daniandor.com</a>
-                  <a href='/' target='_blank' rel='noreferrer noopener' title='New Page' className='purple-btn'>View Profile</a>
+                  <a href='/' target='_blank' rel='noreferrer noopener' title='New Page' className='purple-btn'>VIEW PROFILE</a>
                 </div>
               </Col>
             </div>

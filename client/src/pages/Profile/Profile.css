@@ -2,3 +2,103 @@
 .container-fluid {
   padding: 0;
 }
+
+.profile {
+  padding: 48px 0;
+}
+
+.profile-image {
+  position: relative;
+}
+
+.profile-image:before,
+.profile-image:after {
+  position: absolute;
+}
+
+.profile-image:before {
+  content: url('../../assets/ovals/purple-oval.png');
+  -webkit-transform: rotate(-7deg) translate3d(-10px, -32px, 0);
+          transform: rotate(-7deg) translate3d(-10px, -32px, 0);
+  z-index: -1;
+  width: 100%;
+}
+
+.profile-image:after {
+  content: url('../../assets/ovals/pink-oval.png');
+  -webkit-transform: rotate(-7deg) translate3d(52px, 32px, 0);
+          transform: rotate(-7deg) translate3d(52px, 32px, 0);
+  z-index: -1;
+  width: 100%;
+  bottom: 0;
+}
+
+.user-image {
+  position: relative;
+}
+
+
+.user-image:before {
+  content: 'FEATURED';
+  background: var(--darkPink);
+  border-radius: 6px;
+  color: var(--white);
+  font-weight: 800;
+  padding: 4px 15px;
+  -webkit-transform: translate3d(10px, 10px, 0);
+          transform: translate3d(10px, 10px, 0);
+  position: absolute;
+}
+
+.profile-info {
+  padding: 52px 0;
+}
+
+.profile-info h1 {
+  color: var(--headingColor);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.profile-info span {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.profile-info .social-media {
+  margin: 26px 0 30px;
+}
+
+.profile-info .social-media li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.profile-info .social-media li:first-of-type {
+  margin-left: 0;
+}
+
+.profile-info .social-media li img {
+  vertical-align: bottom;
+  width: 24px;
+}
+
+.website-name {
+  display: inline-block;
+}
+
+.purple-btn {
+  background: var(--purpleBtn);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 25px rgba(0,0,0,.20);
+          box-shadow: 0 2px 25px rgba(0,0,0,.20);
+  color: var(--white);
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 24px;
+  max-width: 280px;
+  padding: 16px 0;
+  text-align: center;
+  width: 100%;
+}

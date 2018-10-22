@@ -8,6 +8,7 @@
   --headingColor: #1f3559;
   --lightPurple: #eff3f8;
   --darkPurple: #53588a;
+  --purpleBtn: #515bba;
   --lightPink: #f67282;
   --darkPink: #f14b5f;
   --green: #31a692;
@@ -111,12 +112,16 @@ a {
   background-color: var(--lightPurple);
   -webkit-filter: blur(2px);
           filter: blur(2px);
-  height: 784px;
+  height: 854px;
   width: 100%;
   z-index: -1;
   position: absolute;
   left: 0;
   top: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 @media screen and (min-width: 700px) {
