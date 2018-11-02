@@ -1,0 +1,11 @@
+
+.main-footer {
+  background: var(--footerColor);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 32px 0;
+}
+
+.main-footer .container {
+  padding-bottom: 0;
+}

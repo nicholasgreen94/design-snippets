@@ -4,7 +4,7 @@ import './Header.css'
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div className='container'>
         <div className='header'>
           <span className='logo'>designsnippets.com</span>
         </div>

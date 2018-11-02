@@ -9,6 +9,7 @@ import Behance from '../../assets/icons/Behance@2x.png'
 import Dani from '../../assets/images/user-image@2x.jpg'
 // import purpleOval from '../../assets/ovals/purple-oval@2x.png'
 // import pinkOval from '../../assets/ovals/pink-oval@2x.png'
+import otherUser from '../../assets/images/other-designers@2x.jpg'
 
 
 import './Profile.css'
@@ -19,7 +20,7 @@ class Profile extends Component {
       <div>
         <Grid fluid>
           <Row>
-            <div className='profile'>
+            <div className='profile container'>
             <Col xs={12} md={4}>
               <div className='profile-image'>
                 <div className='user-image'>
@@ -47,6 +48,104 @@ class Profile extends Component {
                 </div>
               </Col>
             </div>
+          </Row>
+          <Row className='other-designers container'>
+            <h2>Check out some other designers</h2>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} className='subscribe'>
+              <div className='container'>
+                <h2>Subscribe to stay up to date</h2>
+                <p>If you are a designer and you want to share your tool kit with others, so they can learn and grow as designers, don’t hesitate to reach out by sending over your email address and I’ll get in touch with you.</p>
+                <form>
+                  <input type='text' placeholder='Enter Email Address' value='' />
+                  <input type='submit' value='SUBSCRIBE' />
+                </form>
+              </div>
+            </Col>
+          </Row>
+          <Row className='other-designers container'>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+            <Col xs={6} md={3} className='other-designer'>
+              <img src={otherUser} alt='Person' />
+              <h3>Milton Hill</h3>
+              <span className='other-info'>Freelance Product Designer</span>
+              <span className='other-info'>Oradea, Romania</span>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} className='subscribe purple'>
+              <div className='container'>
+                <h2>Are you interested to be featured on designsnippet?</h2>
+                <p>If you are a designer and you want to share your tool kit with others so they can learn and grow as designers too, don’t hesitate to reach out to me. <span className='bold'>Please include in the email a link to your portfolio too.</span></p>
+                <a href='mailto:designsnippet@gmail.com' className='contact-btn'>CONTACT US</a>
+              </div>
+            </Col>
           </Row>
         </Grid>
       </div>
